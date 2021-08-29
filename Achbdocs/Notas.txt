@@ -1,0 +1,55 @@
+CREACION DEL PROYECTO
+
+    Stacks:
+        LAMP: Linux, Apache, MySql y PHP
+        WAMP: Windows, Apache, MySql y PHP
+        PERN: Postgres, Express, React JS y Node JS
+
+    Referencias:
+
+        PostgreSQL Instalación en Windows 10
+            https://www.youtube.com/watch?v=cHGaDfzJyY4&t=481s
+
+        PostgreSQL & Nodejs REST API, Sequelize, Babel
+            https://www.youtube.com/watch?v=sA3t4d1v7OI&list=WL&index=1&t=2965s
+            
+        Nodejs & PostgreSQL REST API
+            https://www.youtube.com/watch?v=7NfvC-gOcRc&list=WL&index=3&t=748s
+
+        Nodejs REST API con JWT y Roles (Autorización y Autenticación) & Mongodb (Mas contextualizado)
+            https://www.youtube.com/watch?v=lV7mxivGX_I&list=WL&index=4&t=3230s
+
+        Para testear con modulo supertest con JEST
+            https://www.youtube.com/watch?v=_DzBez4qMi0
+
+
+    BACKEND: 
+        1) Crear un directorio vacio para contener nuestro proyecto.
+            mkdir api-node-express
+            cd backend-node-express
+
+        2) Crear el archivo de configuracionn "package.json" con el comando:
+            npm init -y
+
+        3) Instalar los módulos de inicio requeridos en el proyecto.
+            * (express) "EXPRESS" para crear el servidor
+            * (morgan) "MORGAN" para hacer seguimiento a las peticiones por consola.
+            * (pg pg-hstore) PostgreSQL para la base de datos.
+            * (sequelize) ORM "SEQUELIZE" para el manejo de la base de datos.
+            * (@babel/polyfill) "Babel" para traducir código moderno a código javascript normal.
+            * (cors) CORS es un paquete de node.js para proporcionar un middleware para la comunicación entre aplicaciones.
+            npm i express morgan pg pg-hstore sequelize @babel/polyfill cors
+
+        4) Instalar módulos de desarrollo
+            * (@babel/core) Core: Modulo principal de babel.
+            * (@babel/cli) Cli: Para utilizar babel desde consola.
+            * (@babel/node) Node: Para usar babel adentro de node.
+            * (@babel/preset-env) Preset-env: Para configurar Babel.
+            * (@babel/plugin-transform-runtime) Plugin-transform-runtime: Para no tener problema con códigos async/await.
+            * (nodemon) Nodemon es una utilidad que monitoreará cualquier cambio en su fuente y reiniciará automáticamente su servidor.
+            * (jest) Instalar dependencia de testing para desarrollo
+            npm i @babel/core @babel/cli @babel/node @babel/preset-env @babel/plugin-transform-runtime nodemon jest -D
+        
+
+        5) Logs
+            C:\Users\Acer\AppData\Local\npm-cache\_logs

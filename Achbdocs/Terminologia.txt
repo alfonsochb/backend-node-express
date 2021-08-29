@@ -1,0 +1,9 @@
+
+
+NodeJS:
+    Es un entorno en tiempo de ejecución basado en JavaScript y en el motor Chrome V8 de Google.
+
+Babel: 
+    Transpiulador de código moderno a código comrensible por navegadores desactualizados.
+
+npm: (management package node) Administrador de paquetes de node.
